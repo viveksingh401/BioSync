@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40EB8BC2AB2F0B600619A0E /* BioSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EB8BB2AB2F0B600619A0E /* BioSyncApp.swift */; };
+		F40EB8BE2AB2F0B600619A0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EB8BD2AB2F0B600619A0E /* ContentView.swift */; };
+		F40EB8C02AB2F0B800619A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40EB8BF2AB2F0B800619A0E /* Assets.xcassets */; };
+		F40EB8C32AB2F0B800619A0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40EB8C22AB2F0B800619A0E /* Preview Assets.xcassets */; };
+		F40EB8CD2AB2F0B800619A0E /* BioSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EB8CC2AB2F0B800619A0E /* BioSyncTests.swift */; };
+		F40EB8D72AB2F0B800619A0E /* BioSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EB8D62AB2F0B800619A0E /* BioSyncUITests.swift */; };
+		F40EB8D92AB2F0B800619A0E /* BioSyncUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40EB8D82AB2F0B800619A0E /* BioSyncUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40EB8C92AB2F0B800619A0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40EB8B02AB2F0B600619A0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40EB8B72AB2F0B600619A0E;
+			remoteInfo = BioSync;
+		};
+		F40EB8D32AB2F0B800619A0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40EB8B02AB2F0B600619A0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40EB8B72AB2F0B600619A0E;
+			remoteInfo = BioSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F40EB8B82AB2F0B600619A0E /* BioSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40EB8BB2AB2F0B600619A0E /* BioSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioSyncApp.swift; sourceTree = "<group>"; };
+		F40EB8BD2AB2F0B600619A0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F40EB8BF2AB2F0B800619A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40EB8C22AB2F0B800619A0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F40EB8C82AB2F0B800619A0E /* BioSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40EB8CC2AB2F0B800619A0E /* BioSyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioSyncTests.swift; sourceTree = "<group>"; };
+		F40EB8D22AB2F0B800619A0E /* BioSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40EB8D62AB2F0B800619A0E /* BioSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioSyncUITests.swift; sourceTree = "<group>"; };
+		F40EB8D82AB2F0B800619A0E /* BioSyncUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioSyncUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40EB8B52AB2F0B600619A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40EB8C52AB2F0B800619A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40EB8CF2AB2F0B800619A0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40EB8AF2AB2F0B600619A0E = {
+			isa = PBXGroup;
+			children = (
+				F40EB8BA2AB2F0B600619A0E /* BioSync */,
+				F40EB8CB2AB2F0B800619A0E /* BioSyncTests */,
+				F40EB8D52AB2F0B800619A0E /* BioSyncUITests */,
+				F40EB8B92AB2F0B600619A0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40EB8B92AB2F0B600619A0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40EB8B82AB2F0B600619A0E /* BioSync.app */,
+				F40EB8C82AB2F0B800619A0E /* BioSyncTests.xctest */,
+				F40EB8D22AB2F0B800619A0E /* BioSyncUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40EB8BA2AB2F0B600619A0E /* BioSync */ = {
+			isa = PBXGroup;
+			children = (
+				F40EB8BB2AB2F0B600619A0E /* BioSyncApp.swift */,
+				F40EB8BD2AB2F0B600619A0E /* ContentView.swift */,
+				F40EB8BF2AB2F0B800619A0E /* Assets.xcassets */,
+				F40EB8C12AB2F0B800619A0E /* Preview Content */,
+			);
+			path = BioSync;
+			sourceTree = "<group>";
+		};
+		F40EB8C12AB2F0B800619A0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F40EB8C22AB2F0B800619A0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F40EB8CB2AB2F0B800619A0E /* BioSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				F40EB8CC2AB2F0B800619A0E /* BioSyncTests.swift */,
+			);
+			path = BioSyncTests;
+			sourceTree = "<group>";
+		};
+		F40EB8D52AB2F0B800619A0E /* BioSyncUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F40EB8D62AB2F0B800619A0E /* BioSyncUITests.swift */,
+				F40EB8D82AB2F0B800619A0E /* BioSyncUITestsLaunchTests.swift */,
+			);
+			path = BioSyncUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40EB8B72AB2F0B600619A0E /* BioSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40EB8DC2AB2F0B800619A0E /* Build configuration list for PBXNativeTarget "BioSync" */;
+			buildPhases = (
+				F40EB8B42AB2F0B600619A0E /* Sources */,
+				F40EB8B52AB2F0B600619A0E /* Frameworks */,
+				F40EB8B62AB2F0B600619A0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioSync;
+			productName = BioSync;
+			productReference = F40EB8B82AB2F0B600619A0E /* BioSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F40EB8C72AB2F0B800619A0E /* BioSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40EB8DF2AB2F0B800619A0E /* Build configuration list for PBXNativeTarget "BioSyncTests" */;
+			buildPhases = (
+				F40EB8C42AB2F0B800619A0E /* Sources */,
+				F40EB8C52AB2F0B800619A0E /* Frameworks */,
+				F40EB8C62AB2F0B800619A0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40EB8CA2AB2F0B800619A0E /* PBXTargetDependency */,
+			);
+			name = BioSyncTests;
+			productName = BioSyncTests;
+			productReference = F40EB8C82AB2F0B800619A0E /* BioSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F40EB8D12AB2F0B800619A0E /* BioSyncUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40EB8E22AB2F0B800619A0E /* Build configuration list for PBXNativeTarget "BioSyncUITests" */;
+			buildPhases = (
+				F40EB8CE2AB2F0B800619A0E /* Sources */,
+				F40EB8CF2AB2F0B800619A0E /* Frameworks */,
+				F40EB8D02AB2F0B800619A0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40EB8D42AB2F0B800619A0E /* PBXTargetDependency */,
+			);
+			name = BioSyncUITests;
+			productName = BioSyncUITests;
+			productReference = F40EB8D22AB2F0B800619A0E /* BioSyncUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40EB8B02AB2F0B600619A0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F40EB8B72AB2F0B600619A0E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F40EB8C72AB2F0B800619A0E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F40EB8B72AB2F0B600619A0E;
+					};
+					F40EB8D12AB2F0B800619A0E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F40EB8B72AB2F0B600619A0E;
+					};
+				};
+			};
+			buildConfigurationList = F40EB8B32AB2F0B600619A0E /* Build configuration list for PBXProject "BioSync" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40EB8AF2AB2F0B600619A0E;
+			productRefGroup = F40EB8B92AB2F0B600619A0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40EB8B72AB2F0B600619A0E /* BioSync */,
+				F40EB8C72AB2F0B800619A0E /* BioSyncTests */,
+				F40EB8D12AB2F0B800619A0E /* BioSyncUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40EB8B62AB2F0B600619A0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40EB8C32AB2F0B800619A0E /* Preview Assets.xcassets in Resources */,
+				F40EB8C02AB2F0B800619A0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40EB8C62AB2F0B800619A0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40EB8D02AB2F0B800619A0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40EB8B42AB2F0B600619A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40EB8BE2AB2F0B600619A0E /* ContentView.swift in Sources */,
+				F40EB8BC2AB2F0B600619A0E /* BioSyncApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40EB8C42AB2F0B800619A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40EB8CD2AB2F0B800619A0E /* BioSyncTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40EB8CE2AB2F0B800619A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40EB8D92AB2F0B800619A0E /* BioSyncUITestsLaunchTests.swift in Sources */,
+				F40EB8D72AB2F0B800619A0E /* BioSyncUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40EB8CA2AB2F0B800619A0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40EB8B72AB2F0B600619A0E /* BioSync */;
+			targetProxy = F40EB8C92AB2F0B800619A0E /* PBXContainerItemProxy */;
+		};
+		F40EB8D42AB2F0B800619A0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40EB8B72AB2F0B600619A0E /* BioSync */;
+			targetProxy = F40EB8D32AB2F0B800619A0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F40EB8DA2AB2F0B800619A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F40EB8DB2AB2F0B800619A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40EB8DD2AB2F0B800619A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BioSync/Preview Content\"";
+				DEVELOPMENT_TEAM = X79CMU6674;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biosync.health.BioSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F40EB8DE2AB2F0B800619A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BioSync/Preview Content\"";
+				DEVELOPMENT_TEAM = X79CMU6674;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biosync.health.BioSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F40EB8E02AB2F0B800619A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X79CMU6674;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biosync.health.BioSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioSync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BioSync";
+			};
+			name = Debug;
+		};
+		F40EB8E12AB2F0B800619A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X79CMU6674;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biosync.health.BioSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioSync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BioSync";
+			};
+			name = Release;
+		};
+		F40EB8E32AB2F0B800619A0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X79CMU6674;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biosync.health.BioSyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BioSync;
+			};
+			name = Debug;
+		};
+		F40EB8E42AB2F0B800619A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X79CMU6674;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biosync.health.BioSyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BioSync;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40EB8B32AB2F0B600619A0E /* Build configuration list for PBXProject "BioSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40EB8DA2AB2F0B800619A0E /* Debug */,
+				F40EB8DB2AB2F0B800619A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40EB8DC2AB2F0B800619A0E /* Build configuration list for PBXNativeTarget "BioSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40EB8DD2AB2F0B800619A0E /* Debug */,
+				F40EB8DE2AB2F0B800619A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40EB8DF2AB2F0B800619A0E /* Build configuration list for PBXNativeTarget "BioSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40EB8E02AB2F0B800619A0E /* Debug */,
+				F40EB8E12AB2F0B800619A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40EB8E22AB2F0B800619A0E /* Build configuration list for PBXNativeTarget "BioSyncUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40EB8E32AB2F0B800619A0E /* Debug */,
+				F40EB8E42AB2F0B800619A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40EB8B02AB2F0B600619A0E /* Project object */;
+}
